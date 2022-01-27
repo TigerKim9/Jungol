@@ -1,4 +1,4 @@
-package 반복제어문3.자가진단06;
+package 반복제어문3.형성평가07;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Main {
 				System.out.print(a);
 				a++;
 			}
-				System.out.println();
+				System.out.println(i);
 			
 		}
 		sc.close();
