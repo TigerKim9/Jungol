@@ -9,9 +9,9 @@ public class Main {
 			b = b * 2;
 			return new int [] {a,b};
 		} else {
-			b = b / 2;
 			a = a * 2;
-			return new int[] {a, b};
+			b = b / 2;
+			return new int [] {a,b};
 		}
 
 	}
@@ -26,6 +26,7 @@ public class Main {
 		System.out.print(mulAndhalf(j,k)[i] + " ");
 		}
 		sc.close();
+		
 	}
 
 }
